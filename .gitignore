@@ -1,23 +1,55 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Build output
+dist/
+build/
+out/
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# macOS
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-npm-debug.log*
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
 yarn-debug.log*
-yarn-error.log*
+.yarn-integrity
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Test coverage
+coverage/
+*.lcov
+
+# Production
+.env
+.env.local
+.env.production
+.env.production.local
+.env.test
+.env.test.local
+
+# Misc
+.tmp/
+
