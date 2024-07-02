@@ -53,3 +53,5 @@ coverage/
 # Misc
 .tmp/
 
+# Temporary Vim files
+*.un~
